@@ -1,0 +1,501 @@
+CustomerID,Age,Gender,MonthlyCharge,ContractType,InternetService,Tenure,Churn
+1,56,Male,621923,Month-to-month,Fiber,6,Yes
+2,46,Female,649384,Two year,Fiber,56,Yes
+3,32,Male,358099,Month-to-month,DSL,19,No
+4,25,Male,257561,One year,Fiber,37,Yes
+5,38,Male,717010,Month-to-month,Fiber,58,No
+6,56,Male,332152,Two year,Fiber,4,No
+7,36,Male,375036,Month-to-month,DSL,47,No
+8,40,Male,636193,Two year,Fiber,4,Yes
+9,28,Male,276734,One year,Fiber,20,No
+10,28,Female,649587,Month-to-month,Fiber,10,Yes
+11,41,Male,276069,One year,Fiber,24,No
+12,53,Male,460977,Two year,Fiber,54,No
+13,57,Female,262910,Month-to-month,DSL,35,Yes
+14,41,Female,585623,Month-to-month,Fiber,26,Yes
+15,20,Female,720951,Month-to-month,Fiber,37,Yes
+16,39,Male,331264,One year,DSL,38,No
+17,19,Female,273275,One year,Fiber,21,No
+18,41,Male,322274,One year,Fiber,54,Yes
+19,47,Male,724665,Month-to-month,DSL,40,Yes
+20,55,Male,612920,Month-to-month,Fiber,39,Yes
+21,19,Male,441076,One year,Fiber,21,No
+22,38,Female,444053,Month-to-month,Fiber,10,Yes
+23,50,Female,727875,Month-to-month,Fiber,38,No
+24,29,Male,435625,Two year,Fiber,46,No
+25,39,Male,298447,One year,Fiber,4,No
+26,42,Male,677745,One year,Fiber,57,No
+27,44,Female,638538,Two year,Fiber,45,No
+28,59,Male,325703,One year,DSL,20,No
+29,45,Male,588234,Two year,DSL,17,No
+30,33,Female,529404,Month-to-month,Fiber,55,No
+31,32,Female,362581,Month-to-month,Fiber,7,Yes
+32,20,Male,515956,Month-to-month,DSL,4,Yes
+33,54,Female,671240,Month-to-month,Fiber,29,Yes
+34,24,Female,439728,One year,Fiber,14,No
+35,38,Male,628292,Month-to-month,DSL,3,Yes
+36,26,Female,670501,Month-to-month,Fiber,24,Yes
+37,56,Male,735652,Month-to-month,DSL,37,Yes
+38,35,Female,366421,Month-to-month,DSL,16,Yes
+39,21,Male,251605,One year,Fiber,58,Yes
+40,42,Male,714374,Month-to-month,Fiber,55,Yes
+41,31,Male,322303,One year,Fiber,52,No
+42,26,Female,408211,Month-to-month,DSL,4,No
+43,43,Male,720365,One year,DSL,56,Yes
+44,19,Female,437210,Two year,DSL,24,No
+45,37,Male,511949,Month-to-month,Fiber,34,No
+46,45,Male,588269,One year,DSL,30,No
+47,24,Female,394990,Month-to-month,DSL,18,Yes
+48,25,Male,728871,Month-to-month,DSL,19,No
+49,52,Male,408518,Two year,DSL,31,No
+50,31,Female,374040,Month-to-month,DSL,19,Yes
+51,34,Male,394118,Month-to-month,DSL,49,Yes
+52,53,Male,668034,One year,Fiber,46,No
+53,57,Male,481966,Month-to-month,Fiber,19,No
+54,21,Male,516468,Two year,Fiber,22,No
+55,19,Female,588467,Month-to-month,DSL,24,No
+56,23,Female,521255,Two year,Fiber,45,No
+57,59,Male,681326,One year,DSL,12,No
+58,21,Female,266389,One year,DSL,30,No
+59,46,Male,372177,Two year,DSL,58,No
+60,35,Female,553571,Month-to-month,Fiber,38,No
+61,43,Male,722795,Two year,Fiber,53,No
+62,51,Male,409818,Month-to-month,Fiber,31,Yes
+63,27,Male,372883,Month-to-month,DSL,36,Yes
+64,53,Male,468958,Month-to-month,DSL,19,Yes
+65,31,Male,488213,One year,DSL,48,No
+66,48,Male,643333,Month-to-month,Fiber,45,Yes
+67,32,Female,637952,Two year,DSL,36,Yes
+68,25,Male,362221,Two year,DSL,30,No
+69,31,Female,727687,Two year,Fiber,55,Yes
+70,40,Male,525378,Month-to-month,DSL,49,No
+71,57,Female,510669,One year,Fiber,55,Yes
+72,38,Female,484936,Month-to-month,Fiber,33,No
+73,33,Female,565585,Month-to-month,DSL,18,Yes
+74,35,Male,250846,Month-to-month,Fiber,52,No
+75,41,Male,260954,Month-to-month,DSL,49,Yes
+76,43,Female,591383,One year,DSL,59,No
+77,42,Male,494761,One year,Fiber,28,No
+78,58,Female,558658,Month-to-month,Fiber,59,Yes
+79,46,Male,600380,Month-to-month,Fiber,47,Yes
+80,32,Female,609723,Month-to-month,Fiber,11,Yes
+81,18,Female,387541,Month-to-month,Fiber,57,Yes
+82,42,Male,673321,Two year,Fiber,54,No
+83,24,Female,554245,Month-to-month,Fiber,45,No
+84,26,Male,314323,Month-to-month,Fiber,33,No
+85,41,Female,341922,Month-to-month,Fiber,17,Yes
+86,18,Female,439139,Two year,DSL,6,Yes
+87,25,Male,430448,Two year,DSL,4,No
+88,41,Male,426659,One year,Fiber,20,No
+89,28,Male,680192,One year,Fiber,48,Yes
+90,34,Female,485659,One year,DSL,47,No
+91,25,Male,639678,Month-to-month,DSL,27,Yes
+92,52,Female,579728,Two year,DSL,15,No
+93,52,Female,354537,One year,DSL,6,Yes
+94,50,Male,590621,One year,Fiber,47,No
+95,22,Male,491983,One year,Fiber,14,No
+96,59,Female,292533,One year,Fiber,11,Yes
+97,56,Female,513972,One year,Fiber,39,Yes
+98,58,Male,251917,Two year,Fiber,9,No
+99,45,Male,532762,Two year,Fiber,26,No
+100,24,Male,282254,One year,Fiber,16,No
+101,26,Male,511987,One year,DSL,5,No
+102,25,Male,617436,Month-to-month,DSL,57,Yes
+103,29,Female,297362,One year,Fiber,52,No
+104,51,Female,532272,Month-to-month,DSL,10,Yes
+105,50,Female,635925,One year,Fiber,50,No
+106,40,Female,492353,Two year,DSL,3,No
+107,41,Male,440455,One year,Fiber,13,No
+108,54,Male,315545,Month-to-month,DSL,43,No
+109,52,Male,332180,Month-to-month,DSL,49,No
+110,57,Female,337958,Month-to-month,Fiber,30,No
+111,39,Female,653081,One year,Fiber,54,Yes
+112,44,Male,645435,Month-to-month,Fiber,45,No
+113,52,Male,551953,Month-to-month,Fiber,6,No
+114,18,Female,628892,Month-to-month,Fiber,17,Yes
+115,52,Female,255287,One year,DSL,59,No
+116,54,Male,507665,One year,Fiber,45,No
+117,31,Male,677603,Month-to-month,DSL,51,Yes
+118,20,Female,258512,Month-to-month,DSL,53,Yes
+119,18,Male,382414,One year,Fiber,19,Yes
+120,22,Male,706292,One year,Fiber,42,Yes
+121,43,Male,358872,One year,Fiber,35,No
+122,31,Female,662432,Month-to-month,DSL,46,Yes
+123,56,Female,497754,One year,Fiber,26,No
+124,44,Female,343070,Month-to-month,DSL,51,No
+125,26,Female,329767,Two year,DSL,5,No
+126,32,Female,347829,One year,Fiber,29,No
+127,32,Female,669830,Month-to-month,Fiber,37,Yes
+128,43,Female,679474,Month-to-month,DSL,20,Yes
+129,59,Male,737005,One year,DSL,49,Yes
+130,30,Male,292078,Two year,Fiber,21,No
+131,49,Male,618432,One year,Fiber,10,No
+132,56,Male,333524,One year,DSL,5,Yes
+133,49,Male,477645,One year,Fiber,36,No
+134,21,Male,262219,One year,DSL,6,No
+135,47,Male,512379,Month-to-month,Fiber,26,No
+136,54,Female,555073,Two year,Fiber,4,No
+137,40,Female,377309,Month-to-month,DSL,39,Yes
+138,56,Male,579588,Month-to-month,Fiber,39,No
+139,32,Male,389639,Two year,Fiber,50,No
+140,46,Female,613978,Month-to-month,Fiber,35,No
+141,53,Male,714008,Month-to-month,Fiber,1,Yes
+142,30,Male,446513,Month-to-month,DSL,24,No
+143,49,Female,596699,Two year,Fiber,57,No
+144,24,Male,585842,Month-to-month,Fiber,36,Yes
+145,39,Female,636594,Month-to-month,DSL,6,Yes
+146,45,Male,498320,Month-to-month,DSL,41,No
+147,19,Female,386487,Month-to-month,Fiber,54,Yes
+148,59,Female,417231,Month-to-month,Fiber,46,No
+149,23,Female,293925,Month-to-month,DSL,44,Yes
+150,45,Male,387023,One year,DSL,57,No
+151,45,Female,337388,Month-to-month,Fiber,31,No
+152,37,Male,258007,Month-to-month,Fiber,20,No
+153,47,Male,507802,Month-to-month,Fiber,24,Yes
+154,28,Male,685048,Month-to-month,DSL,25,Yes
+155,45,Male,308596,One year,DSL,36,No
+156,42,Female,633245,One year,DSL,21,No
+157,56,Female,673739,Month-to-month,DSL,30,Yes
+158,50,Male,601005,Month-to-month,DSL,24,Yes
+159,18,Male,505266,Month-to-month,Fiber,44,No
+160,44,Female,598884,Two year,Fiber,42,No
+161,30,Male,265524,One year,Fiber,30,No
+162,58,Female,662498,One year,Fiber,22,No
+163,20,Male,405002,Month-to-month,DSL,28,No
+164,56,Male,643293,Two year,Fiber,7,Yes
+165,23,Female,749097,Month-to-month,Fiber,35,Yes
+166,25,Male,375501,Month-to-month,Fiber,55,Yes
+167,44,Female,532755,Month-to-month,Fiber,28,Yes
+168,26,Male,398056,Month-to-month,Fiber,14,Yes
+169,54,Male,264060,Two year,Fiber,56,No
+170,50,Male,464057,One year,DSL,10,No
+171,59,Female,727272,Month-to-month,Fiber,16,No
+172,41,Male,555447,One year,DSL,16,No
+173,32,Male,440279,Two year,Fiber,54,No
+174,49,Male,456118,Two year,Fiber,31,No
+175,49,Male,410359,One year,Fiber,42,No
+176,41,Female,736925,Two year,Fiber,25,No
+177,58,Female,289711,Two year,DSL,13,No
+178,29,Male,393026,One year,Fiber,6,No
+179,56,Female,585484,Month-to-month,Fiber,44,Yes
+180,19,Male,715317,Month-to-month,DSL,9,Yes
+181,20,Male,714736,Two year,Fiber,45,No
+182,54,Male,468134,Month-to-month,Fiber,36,No
+183,34,Female,352974,Two year,DSL,56,No
+184,19,Female,399646,Month-to-month,DSL,43,Yes
+185,19,Female,652400,Month-to-month,Fiber,20,No
+186,45,Female,400168,Month-to-month,DSL,18,Yes
+187,40,Female,317728,Month-to-month,DSL,58,Yes
+188,54,Female,415088,Two year,Fiber,43,No
+189,49,Female,261246,Two year,DSL,57,No
+190,50,Female,688774,Two year,Fiber,21,Yes
+191,18,Female,661597,One year,Fiber,4,Yes
+192,36,Male,639940,Month-to-month,Fiber,50,No
+193,19,Female,679671,One year,Fiber,33,No
+194,43,Female,342263,One year,DSL,27,No
+195,49,Female,647234,One year,Fiber,7,Yes
+196,23,Female,261302,Month-to-month,DSL,6,Yes
+197,49,Female,579650,One year,DSL,15,No
+198,21,Female,291157,Month-to-month,Fiber,18,No
+199,28,Female,304917,Two year,DSL,32,Yes
+200,34,Female,473810,Two year,Fiber,56,No
+201,55,Female,346646,Month-to-month,Fiber,11,Yes
+202,41,Female,595266,One year,DSL,20,No
+203,22,Female,536663,One year,Fiber,24,Yes
+204,51,Male,740025,Month-to-month,Fiber,15,Yes
+205,23,Male,730703,Two year,Fiber,48,No
+206,39,Female,700035,Two year,Fiber,7,Yes
+207,28,Female,593054,Month-to-month,Fiber,21,Yes
+208,33,Male,632574,Month-to-month,Fiber,42,Yes
+209,50,Female,583468,Month-to-month,DSL,26,Yes
+210,26,Male,517552,Month-to-month,Fiber,44,No
+211,23,Male,309379,Month-to-month,Fiber,56,No
+212,33,Male,275053,Two year,Fiber,14,No
+213,46,Male,652662,Month-to-month,Fiber,57,Yes
+214,20,Male,381994,Month-to-month,DSL,37,Yes
+215,37,Female,348723,Two year,DSL,58,Yes
+216,53,Male,301356,One year,DSL,21,No
+217,36,Female,522933,Month-to-month,Fiber,18,No
+218,43,Female,609864,Month-to-month,Fiber,5,Yes
+219,20,Male,578800,Month-to-month,Fiber,3,Yes
+220,36,Male,556172,One year,DSL,23,No
+221,37,Female,576628,Month-to-month,Fiber,26,No
+222,49,Male,282154,One year,Fiber,37,No
+223,24,Male,463942,Two year,DSL,24,No
+224,58,Female,514480,Month-to-month,Fiber,49,No
+225,50,Female,615821,Two year,Fiber,19,Yes
+226,57,Male,579923,Two year,Fiber,51,No
+227,56,Female,531173,Month-to-month,DSL,25,No
+228,35,Male,571345,Two year,Fiber,21,No
+229,57,Male,282265,One year,DSL,12,No
+230,18,Male,615060,Two year,DSL,57,No
+231,28,Female,493322,One year,Fiber,41,No
+232,45,Female,424944,One year,DSL,33,Yes
+233,42,Female,296197,One year,Fiber,50,No
+234,40,Female,637877,Two year,Fiber,53,No
+235,48,Female,698396,One year,DSL,4,Yes
+236,47,Male,404782,One year,DSL,42,No
+237,59,Male,410558,Two year,DSL,57,No
+238,52,Male,321907,Month-to-month,Fiber,7,Yes
+239,24,Male,641020,Month-to-month,Fiber,22,Yes
+240,33,Female,452967,Month-to-month,Fiber,55,Yes
+241,43,Male,576579,Month-to-month,Fiber,33,No
+242,19,Female,552775,Month-to-month,Fiber,17,Yes
+243,18,Male,641182,Two year,Fiber,24,No
+244,29,Female,482604,Month-to-month,Fiber,34,Yes
+245,22,Female,532247,One year,Fiber,28,No
+246,54,Male,314772,Month-to-month,Fiber,58,No
+247,49,Male,376108,Two year,Fiber,43,No
+248,26,Male,264382,Two year,DSL,41,Yes
+249,58,Male,334291,Month-to-month,Fiber,39,No
+250,52,Female,613339,Two year,DSL,22,Yes
+251,36,Male,384828,Month-to-month,DSL,49,Yes
+252,33,Male,532753,Two year,Fiber,17,No
+253,20,Female,397550,Month-to-month,DSL,34,No
+254,37,Male,482050,Two year,Fiber,6,No
+255,41,Male,682882,Month-to-month,Fiber,46,Yes
+256,50,Male,587827,One year,Fiber,6,No
+257,41,Male,742313,One year,Fiber,34,Yes
+258,28,Male,636858,Month-to-month,Fiber,1,Yes
+259,25,Female,380330,Month-to-month,Fiber,10,No
+260,53,Male,743636,Month-to-month,DSL,21,Yes
+261,55,Male,321315,Month-to-month,DSL,5,No
+262,57,Male,589978,One year,Fiber,2,No
+263,37,Male,638349,Month-to-month,DSL,22,Yes
+264,52,Male,264153,Month-to-month,Fiber,48,No
+265,42,Female,326325,Month-to-month,Fiber,57,No
+266,52,Male,490773,Two year,DSL,2,Yes
+267,42,Female,656215,Month-to-month,Fiber,10,Yes
+268,46,Female,305318,Month-to-month,Fiber,34,No
+269,35,Male,644030,Month-to-month,Fiber,16,Yes
+270,35,Male,627177,Month-to-month,Fiber,48,Yes
+271,19,Male,326077,Two year,DSL,51,No
+272,52,Male,602618,Month-to-month,Fiber,39,Yes
+273,33,Female,383515,Month-to-month,DSL,22,No
+274,58,Male,719209,One year,Fiber,12,Yes
+275,53,Male,456988,One year,Fiber,24,No
+276,50,Male,585463,Month-to-month,Fiber,47,No
+277,21,Male,375885,One year,DSL,40,No
+278,50,Male,621921,Two year,Fiber,38,No
+279,31,Male,267368,Month-to-month,DSL,59,No
+280,38,Female,396400,One year,DSL,10,No
+281,37,Female,438014,One year,Fiber,35,No
+282,25,Male,341751,Month-to-month,DSL,51,Yes
+283,24,Male,480203,Month-to-month,DSL,49,No
+284,20,Male,539450,Month-to-month,DSL,32,No
+285,34,Female,728667,Two year,Fiber,7,No
+286,50,Male,420987,Two year,Fiber,21,No
+287,29,Female,549363,One year,Fiber,20,No
+288,39,Male,461951,Month-to-month,Fiber,26,No
+289,39,Male,445716,One year,Fiber,4,Yes
+290,47,Male,310279,One year,DSL,46,No
+291,55,Male,565172,Month-to-month,Fiber,52,Yes
+292,55,Female,616407,Month-to-month,Fiber,22,No
+293,25,Female,250126,Two year,DSL,15,No
+294,44,Male,564473,Month-to-month,DSL,56,Yes
+295,44,Male,277632,Two year,Fiber,40,No
+296,51,Female,446382,Month-to-month,DSL,21,Yes
+297,38,Female,359945,Month-to-month,Fiber,15,Yes
+298,47,Female,567320,Month-to-month,Fiber,22,No
+299,50,Female,500869,Month-to-month,DSL,52,No
+300,45,Male,467138,Two year,Fiber,28,No
+301,50,Female,748716,Month-to-month,Fiber,14,Yes
+302,22,Male,425399,Two year,Fiber,27,No
+303,36,Female,712120,One year,Fiber,41,No
+304,21,Female,384869,Two year,Fiber,40,No
+305,52,Female,428954,Month-to-month,Fiber,58,Yes
+306,34,Female,394790,Two year,DSL,28,No
+307,45,Female,284560,One year,DSL,26,No
+308,47,Male,588733,Month-to-month,Fiber,49,Yes
+309,46,Male,534260,Month-to-month,Fiber,2,Yes
+310,23,Female,679460,Two year,Fiber,25,No
+311,52,Female,744937,Two year,Fiber,56,No
+312,58,Male,382717,Month-to-month,DSL,3,Yes
+313,54,Female,428595,One year,Fiber,8,No
+314,41,Female,374085,Two year,Fiber,44,No
+315,46,Male,629862,Two year,DSL,33,No
+316,48,Female,531400,Two year,DSL,42,No
+317,52,Female,744592,One year,DSL,52,No
+318,50,Male,350158,Month-to-month,Fiber,35,No
+319,38,Male,434245,Month-to-month,Fiber,6,Yes
+320,49,Male,418502,Month-to-month,Fiber,39,No
+321,40,Female,682498,One year,Fiber,52,Yes
+322,50,Male,631863,One year,DSL,23,Yes
+323,20,Male,706590,Month-to-month,DSL,25,Yes
+324,35,Male,580388,Two year,DSL,59,No
+325,42,Male,392766,One year,DSL,50,No
+326,59,Male,568408,One year,Fiber,43,No
+327,48,Male,718276,Month-to-month,DSL,19,Yes
+328,20,Female,740632,One year,Fiber,5,Yes
+329,57,Female,307545,Month-to-month,Fiber,51,No
+330,41,Male,551368,Month-to-month,Fiber,11,Yes
+331,49,Male,745732,Month-to-month,Fiber,56,No
+332,39,Male,610089,Month-to-month,Fiber,12,No
+333,40,Female,263224,Month-to-month,DSL,10,No
+334,19,Female,290738,One year,Fiber,8,Yes
+335,44,Female,668366,Month-to-month,Fiber,24,No
+336,59,Female,575875,One year,Fiber,28,No
+337,19,Female,430760,Month-to-month,DSL,41,No
+338,43,Female,743145,Two year,Fiber,36,No
+339,34,Female,489690,Two year,DSL,37,No
+340,57,Female,716725,Month-to-month,Fiber,21,Yes
+341,50,Female,389649,Month-to-month,DSL,8,Yes
+342,26,Male,258070,Month-to-month,Fiber,55,No
+343,56,Male,376161,One year,DSL,9,No
+344,46,Male,258666,One year,DSL,47,No
+345,59,Male,569905,Month-to-month,Fiber,15,Yes
+346,43,Female,548512,One year,Fiber,48,No
+347,52,Female,387855,Month-to-month,Fiber,46,Yes
+348,42,Male,291914,Month-to-month,Fiber,40,Yes
+349,41,Female,451579,One year,Fiber,18,Yes
+350,30,Male,377738,Month-to-month,DSL,42,Yes
+351,24,Female,722242,One year,Fiber,20,No
+352,53,Male,496965,Month-to-month,Fiber,6,Yes
+353,37,Female,579670,Two year,Fiber,12,Yes
+354,18,Female,714051,Month-to-month,Fiber,2,Yes
+355,25,Male,688981,Month-to-month,DSL,7,Yes
+356,33,Female,532100,One year,Fiber,16,No
+357,31,Male,468967,Month-to-month,DSL,3,No
+358,29,Male,558384,Two year,DSL,45,No
+359,40,Male,633152,One year,DSL,3,Yes
+360,32,Male,680364,One year,DSL,27,No
+361,45,Female,344270,One year,Fiber,50,No
+362,51,Female,516901,Two year,DSL,43,No
+363,19,Female,269097,Two year,Fiber,40,No
+364,49,Male,391467,One year,Fiber,38,Yes
+365,40,Female,397313,One year,DSL,33,No
+366,39,Male,616036,Month-to-month,DSL,28,Yes
+367,42,Female,408768,Month-to-month,DSL,1,Yes
+368,39,Female,496726,One year,Fiber,55,No
+369,39,Female,582624,Month-to-month,Fiber,8,Yes
+370,59,Male,296163,Month-to-month,DSL,37,Yes
+371,23,Female,269816,Month-to-month,Fiber,32,Yes
+372,32,Female,693056,Month-to-month,DSL,48,No
+373,54,Male,483619,One year,DSL,43,No
+374,50,Female,564997,Two year,Fiber,37,No
+375,25,Male,405989,Month-to-month,Fiber,4,No
+376,22,Female,346731,One year,Fiber,30,No
+377,56,Male,402638,Two year,Fiber,6,No
+378,21,Male,456524,Month-to-month,DSL,46,Yes
+379,23,Female,312823,Two year,Fiber,54,No
+380,49,Male,401878,Month-to-month,DSL,19,No
+381,47,Male,456592,Month-to-month,Fiber,32,Yes
+382,52,Male,251759,Two year,DSL,9,No
+383,57,Male,507164,Month-to-month,Fiber,12,Yes
+384,33,Male,685165,One year,Fiber,11,Yes
+385,30,Male,604518,Two year,Fiber,46,Yes
+386,59,Female,383554,Month-to-month,DSL,55,Yes
+387,47,Male,536586,One year,DSL,16,Yes
+388,36,Male,676935,Two year,DSL,1,Yes
+389,34,Female,701282,Month-to-month,Fiber,45,No
+390,36,Female,343501,Two year,Fiber,55,No
+391,45,Female,514223,One year,Fiber,53,No
+392,43,Female,645933,One year,Fiber,21,Yes
+393,54,Female,309676,One year,Fiber,30,No
+394,43,Female,671168,Month-to-month,DSL,13,Yes
+395,40,Female,467516,Two year,DSL,34,No
+396,26,Male,423532,Two year,DSL,4,Yes
+397,29,Male,340397,One year,DSL,28,No
+398,18,Female,322847,One year,Fiber,38,No
+399,18,Male,343607,One year,Fiber,58,No
+400,51,Male,470178,Month-to-month,Fiber,31,No
+401,49,Male,399521,One year,DSL,59,No
+402,42,Female,676752,One year,Fiber,55,No
+403,57,Female,314077,One year,Fiber,27,No
+404,18,Male,550402,One year,Fiber,5,No
+405,33,Female,429374,Month-to-month,Fiber,25,Yes
+406,56,Male,507009,Month-to-month,DSL,3,Yes
+407,22,Male,672081,Month-to-month,DSL,33,Yes
+408,39,Male,387717,Month-to-month,Fiber,4,Yes
+409,46,Male,631915,One year,DSL,25,Yes
+410,20,Female,288000,One year,DSL,20,No
+411,29,Female,276737,One year,Fiber,34,No
+412,43,Female,523629,Month-to-month,Fiber,26,Yes
+413,33,Male,550709,One year,Fiber,5,Yes
+414,54,Female,668738,Month-to-month,Fiber,35,No
+415,39,Male,631758,Month-to-month,DSL,28,No
+416,46,Female,577299,One year,Fiber,29,No
+417,31,Male,436240,Two year,DSL,9,Yes
+418,45,Male,302487,Month-to-month,Fiber,52,Yes
+419,22,Male,642092,Month-to-month,Fiber,38,Yes
+420,47,Female,524486,Month-to-month,Fiber,50,Yes
+421,22,Female,552950,Month-to-month,Fiber,6,Yes
+422,29,Female,560914,One year,Fiber,19,No
+423,33,Female,328623,Month-to-month,DSL,44,No
+424,43,Male,615321,One year,Fiber,57,No
+425,43,Female,743001,Month-to-month,DSL,11,Yes
+426,38,Female,643170,Month-to-month,Fiber,2,Yes
+427,56,Male,587773,Month-to-month,Fiber,47,Yes
+428,53,Male,633137,Month-to-month,Fiber,44,No
+429,50,Male,433675,Month-to-month,Fiber,44,Yes
+430,47,Female,639088,Month-to-month,Fiber,9,Yes
+431,54,Male,463046,Two year,Fiber,21,No
+432,40,Male,355947,Month-to-month,Fiber,24,Yes
+433,27,Male,538543,Two year,Fiber,34,No
+434,22,Female,378177,Month-to-month,Fiber,22,No
+435,53,Male,466454,Two year,Fiber,3,No
+436,51,Female,724460,One year,DSL,12,No
+437,48,Female,359575,One year,DSL,28,No
+438,27,Male,623048,One year,Fiber,30,No
+439,36,Male,457606,One year,Fiber,26,No
+440,49,Female,698322,One year,DSL,48,No
+441,18,Male,542822,One year,DSL,21,No
+442,22,Male,326218,One year,Fiber,28,No
+443,21,Female,313230,Month-to-month,DSL,56,Yes
+444,33,Female,495756,Month-to-month,Fiber,26,No
+445,41,Male,586199,One year,Fiber,33,No
+446,33,Female,699589,One year,DSL,21,No
+447,19,Male,412552,One year,Fiber,35,No
+448,45,Male,728446,One year,DSL,52,Yes
+449,49,Male,712052,Two year,DSL,34,Yes
+450,44,Female,584402,Month-to-month,Fiber,41,No
+451,37,Male,289986,Month-to-month,Fiber,51,Yes
+452,41,Male,405232,Month-to-month,Fiber,47,Yes
+453,29,Male,597739,Month-to-month,Fiber,18,Yes
+454,52,Female,351358,Two year,DSL,58,No
+455,50,Female,722327,Month-to-month,Fiber,11,Yes
+456,50,Female,577073,One year,Fiber,57,No
+457,54,Female,323506,Month-to-month,DSL,23,Yes
+458,29,Female,284911,One year,Fiber,48,No
+459,20,Male,599271,One year,DSL,22,No
+460,18,Female,675037,Month-to-month,Fiber,17,Yes
+461,50,Female,456111,One year,DSL,5,No
+462,57,Female,703751,Month-to-month,Fiber,44,Yes
+463,27,Male,625597,Month-to-month,Fiber,11,Yes
+464,46,Female,334458,Month-to-month,Fiber,30,Yes
+465,30,Female,262175,Month-to-month,Fiber,15,Yes
+466,29,Male,631379,Month-to-month,DSL,27,Yes
+467,48,Female,566915,One year,DSL,35,No
+468,19,Male,749876,One year,DSL,33,Yes
+469,52,Male,639301,One year,Fiber,20,No
+470,40,Male,371300,Month-to-month,Fiber,16,Yes
+471,34,Male,336925,One year,Fiber,34,No
+472,43,Male,494446,Month-to-month,Fiber,2,Yes
+473,25,Female,316358,Month-to-month,DSL,35,No
+474,46,Male,660543,Two year,Fiber,40,No
+475,43,Male,297057,Month-to-month,Fiber,56,No
+476,27,Female,518294,One year,Fiber,28,No
+477,43,Male,516569,One year,DSL,47,No
+478,51,Female,504726,Month-to-month,DSL,39,No
+479,58,Female,528176,Month-to-month,DSL,6,Yes
+480,24,Female,252198,Month-to-month,Fiber,9,Yes
+481,21,Male,703716,Two year,Fiber,20,No
+482,28,Male,434466,Month-to-month,DSL,1,No
+483,46,Male,663295,Month-to-month,DSL,8,Yes
+484,53,Female,417292,Month-to-month,Fiber,55,No
+485,42,Male,685090,One year,DSL,23,No
+486,38,Male,394931,Month-to-month,DSL,3,Yes
+487,53,Male,693676,Month-to-month,DSL,4,Yes
+488,27,Female,412491,One year,DSL,58,No
+489,54,Female,631009,Two year,Fiber,25,No
+490,26,Male,651921,Month-to-month,Fiber,47,Yes
+491,41,Male,686096,Month-to-month,Fiber,38,Yes
+492,52,Male,510910,Month-to-month,DSL,15,No
+493,52,Male,273236,One year,DSL,21,No
+494,53,Female,337955,Month-to-month,DSL,35,No
+495,35,Female,466586,One year,Fiber,57,No
+496,56,Female,353145,One year,DSL,53,Yes
+497,49,Female,396430,One year,DSL,53,No
+498,41,Male,480785,Month-to-month,DSL,46,Yes
+499,40,Male,344914,Two year,DSL,52,No
+500,49,Male,615014,One year,DSL,14,No
